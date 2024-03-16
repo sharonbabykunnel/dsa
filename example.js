@@ -47,6 +47,9 @@ function insertionSort(arr) {
     }
     return arr;
 }
+function heapSort(arr){
+
+}
 
 function quickSort(arr) {
     let pivot = arr[length - 1];
