@@ -1,6 +1,6 @@
 const arr = [-2, 4, -20, 5, 7];
 
-function mergeSort(arr) {
+function bubbleSort(arr) {
     for (let i = 0; i < arr.length - 1; i++){
         let swap = false;
         for (let j = i + 1; j < arr.length; j++){
