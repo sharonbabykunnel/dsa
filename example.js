@@ -79,6 +79,7 @@ function merge(left, right) {
     } else {
         temparr.push(right.shift(0));
     }
+    return [...temparr,...left,...right];
 }
 
 class Queue {
